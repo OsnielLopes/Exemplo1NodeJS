@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var mc5sp1 = require('./routes/mc5sp');
+var mc5sp1 = require('./routes/mc5sp1');
 
 var app = express();
 
