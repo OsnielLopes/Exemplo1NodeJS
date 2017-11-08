@@ -24,6 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api', index);
 app.use('/users', users);
+app.use('/circuito', mc5sp1);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
